@@ -1,0 +1,24 @@
+#root {
+	margin: 0;
+}
+
+.navbar {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.navbar-title {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+
+.page-content {
+	display: flex;
+	justify-content: center;
+}
+
+.gpa-card-container {
+	width: max(85%, 600px);
+}
