@@ -1,6 +1,6 @@
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
-import type { Class, Semester, SortField } from './types';
+import type { Class, Semester } from './types';
 import { gradePoints } from './constants';
 
 export function cn(...inputs: ClassValue[]) {

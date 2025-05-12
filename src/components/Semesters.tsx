@@ -23,9 +23,16 @@ import {
 	SelectContent,
 	SelectItem,
 } from './ui/select';
-import { Trash2, Plus, Edit, ArrowUp, ArrowDownUp, ArrowDown } from 'lucide-react';
+import {
+	Trash2,
+	Plus,
+	Edit,
+	ArrowUp,
+	ArrowDownUp,
+	ArrowDown,
+} from 'lucide-react';
 import { Input } from './ui/input';
-import { useState, type JSX } from 'react';
+import { useState } from 'react';
 import { Badge } from './ui/badge';
 
 function Semesters(props: {
